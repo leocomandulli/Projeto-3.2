@@ -18,7 +18,11 @@ Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnolog
 <br>
 
 <p align="center">
+Versão Desktop:
   <img alt="projeto 03.2 desktop version" src="./images/preview-desktop.png" width="100%">
+  <br>
+  <br>
+  Versão Mobile:
    <img alt="projeto 03.2 mobile version" src="./images/preview-mobile.png" width="100%">
 </p>
 
