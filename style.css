@@ -4,17 +4,87 @@
     box-sizing: border-box;
 }
 
+:root {
+    font-size: 62.5%; /*Deixar o padrão como 10px para facilitar as contas*/
+    /*defino o meu 1rem=10px*/
+}
+
 body {
     background: #ece9fd;
 
+    font-family: 'Epilogue', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 400;
+
     padding: 60px 23px 66px;
+ 
+}
+
+main {
+    max-width: 33.0rem;
+    margin: 0 auto;
 }
 
 h1 {
-    font-family: 'Epilogue', sans-serif;
+    font-size: 4.0rem;
+    line-height: 4.8rem;
+    font-weight: 800;
+
+    color: #090039;
+    margin-bottom: 1.5rem;
+}
+
+
+main p:first-child {
+    color: #7158EF;
+    letter-spacing: 3px; /*afastamento entre as letras*/
+    text-transform: uppercase; /*torna o texto maiusculo*/
+    line-height: 3.2rem;
+
+    margin-bottom: 1.7rem;
+}
+
+/*selecionando o p depois do h1*/
+h1 + p {
+    color: rgba(10, 0, 57, 0.64);
+    line-height: 3.2rem;
+
+    margin-bottom: 3.2rem;
+}
+
+a {
+
+    color: #090039;
+    text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
 }
 
 ul{
     list-style: none;
-
+    margin-top: 7.2rem;
 }
+
+ul li {
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+    color: #090039;
+
+    max-width: 25.7rem;
+
+    display: flex;
+    gap: 3.8rem;
+}
+
+ul li span {
+    font-weight: 800;
+    font-size: 7.2rem;
+    letter-spacing: -2px;
+    line-height: 8.0rem;
+
+    color: #090039;
+}
+
